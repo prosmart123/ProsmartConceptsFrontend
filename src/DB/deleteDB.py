@@ -3,8 +3,8 @@ from pymongo import MongoClient
 # -----------------------------
 #  MONGO CONNECTION
 # -----------------------------
-MONGO_URI = "mongodb+srv://prosmart:prosmart@cluster0.jokss9k.mongodb.net/?appName=Cluster0"
-DATABASE_NAME = "prosmart_db"
+MONGO_URI = ""
+DATABASE_NAME = ""
 
 client = MongoClient(MONGO_URI)
 

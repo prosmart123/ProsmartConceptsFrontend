@@ -110,8 +110,8 @@ const ProductsHeader = () => {
             </div>
             <div className="flex items-center gap-2 text-sm font-medium text-gray-800">
               <User className="w-4 h-4 text-cyan-500" />
-              <a href="mailto:online@prosmart.com" className="hover:text-[#0d3d0d] transition-colors">
-                online@prosmart.com
+              <a href="mailto:atul.anand@prosmart.in" className="hover:text-[#0d3d0d] transition-colors">
+                atul.anand@prosmart.in
               </a>
             </div>
             <div className="flex items-center gap-2 text-sm font-medium text-gray-800">

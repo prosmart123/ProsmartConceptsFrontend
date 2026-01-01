@@ -5,8 +5,8 @@ from pymongo import MongoClient
 # -----------------------------
 #  MONGO CONNECTION
 # -----------------------------
-MONGO_URI = "mongodb+srv://prosmart:prosmart@cluster0.jokss9k.mongodb.net/?appName=Cluster0"
-DATABASE_NAME = "prosmart_db"
+MONGO_URI = ""
+DATABASE_NAME = ""
 
 client = MongoClient(MONGO_URI)
 db = client[DATABASE_NAME]
@@ -85,4 +85,4 @@ if subcategory_docs:
 if product_docs:
     products_col.insert_many(product_docs)
 
-print("✅ Successfully pushed all categories, subcategories, and products to MongoDB!")
+print(" Successfully pushed all categories, subcategories, and products to MongoDB!")
